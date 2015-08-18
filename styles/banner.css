@@ -1,0 +1,327 @@
+#commonBanner {
+    	background:url('../images/banner/common_feel_bg.jpg')  repeat-x;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	height:40px;
+	color: #ffffff;
+}
+#commonBanner .virginiaLogo{
+	float:left;
+	display:block;
+	width:151px;
+	height:40px;
+	text-decoration:none;
+}
+
+#commonBanner .alignLeft {
+	float:left;
+	margin-left: 20px;
+	padding-top: 11px;
+}
+
+#commonBanner a:hover {color:#ccc;}
+
+#commonBanner a {
+	text-decoration:none;
+	color: #ffffff;
+	font-weight:bold;
+}
+
+#commonBanner .hidden {
+	display:none;
+	visibility:hidden;
+}
+#commonBanner #virginiaSearch {
+	float:right;
+	padding-top: 11px;
+	padding-right:10px;
+	voice-family: "\"}\""; 
+  	voice-family:inherit;
+}
+
+
+
+
+/*#commonBanner {
+    background:url('../images/banner/common_feel_bg.jpg')  repeat-x;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	height:40px;
+	padding-right:0px;
+}
+#commonBanner a {
+	text-decoration:none;
+}
+#commonBanner a img {
+	border:none;
+}
+#commonBanner .alignLeft {
+	color:#fff;
+	float:left;
+	margin-left: 10px;
+	padding-top: 13px;
+	font-size:90%;
+}
+
+#commonBanner .alignLeft a{
+	color:#fff;
+	font-weight:bold;
+}
+#commonBanner .alignLeft a:hover {
+	color:#eee;
+}
+
+#commonBanner .virginiaLogo{
+	float:left;
+}
+#commonBanner #virginiaSearch {
+	float: right;
+    padding-right: 1px;
+    padding-top: 8px;
+    text-align: right;
+
+}
+#commonBanner #virginiaSearchForm {
+    margin: 0;
+}
+#commonBanner #virginiaSearch p {
+	margin:0;
+	padding: 5px 10px 5px 5px;
+}
+
+#commonBanner #virginiaSearch p a{
+	color:#fff;
+	font-weight:bold;
+	font-size:90%;
+}
+#commonBanner #virginiaSearch p a:hover {
+	color:#eee;
+}
+
+#commonBanner #virginiaSearch #searchBox {
+    -moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent url(../images/banner/virginia_seach_txt-bg.jpg) no-repeat scroll 0 0;
+border:0 none;
+height:14px;
+padding:3px;
+width:172px;
+}
+
+
+#commonBanner #virginiaSearch #searchBox {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#FFFFFF url(../images/search.gif) no-repeat scroll -66px center;
+border:0 none;
+bottom:18px;
+height:20px;
+left:0;
+line-height:1.2;
+padding:3px 2px 0 4px;
+width:154px;
+margin:0;
+margin-right:-10px;
+
+}
+*/
+
+/* Breadcrumb Bar */
+
+
+div.tabHolder {
+	width:100%;
+	text-align:center;
+	margin-bottom:-1px;
+}
+
+ul.navigation, ul.navigation li {
+border:0 none;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+
+ul.navigation {
+height:29px;
+margin-bottom:-2px;
+background:transparent url('../images/tab-bottom.jpg') repeat-x bottom;
+float:right;
+}
+
+body.large ul.navigation {
+padding-left:25px;
+}
+
+ul.navigation li {
+float:left;
+font-size:90%;
+margin-right:3px;
+text-align:center;
+margin-bottom:-2px;
+}
+
+body.large ul.navigation li {
+white-space:nowrap;
+}
+
+ul.navigation a:link, ul.navigation a:visited {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent url('../images/tab-round.png') repeat scroll right 60px;
+color:#666666;
+float:left;
+font-weight:bold;
+height:30px;
+line-height:30px;
+text-decoration:none;
+}
+
+
+ul.navigation a span {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent url('../images/tab-round.png') repeat scroll left 60px;
+float:left;
+height:30px;
+margin-right:14px;
+padding-left:14px;
+}
+
+
+ul.navigation a:hover {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent url('../images/tab-round.png') repeat scroll right 30px;
+}
+
+
+ul.navigation a:hover span {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent url('../images/tab-round.png') repeat scroll left 30px;
+cursor:pointer;
+}
+
+ul.navigation  a.selected:link, ul.navigation  a.selected:visited,  a.selected:visited,  a.selected:hover {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent url('../images/tab-round.png') no-repeat scroll right 0;
+}
+
+
+ul.navigation  a.selected span, ul.navigation  a.selected:hover span {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent url('../images/tab-round.png') no-repeat scroll left 0;
+}
+
+ul.navigation a:focus {
+    outline: none;
+}
+
+
+
+#bcnav {
+margin : 0 auto 0;
+padding : 4px 0 8px 0;
+
+}
+#bcnav img {
+border : 0;
+padding : 0;
+margin : 0;
+}
+#bcnav ul {
+list-style-type : none;
+margin : 0;
+margin-left : 0;
+padding : 0;
+}
+#bcnav li {
+display : inline;
+margin : 0;
+padding : 0;
+}
+
+#bcnav a:hover {
+	cursor:pointer;
+}
+
+#bcnav li span {
+display : inline;
+background : url('../images/tab-arrow.gif') no-repeat left top;
+white-space:nowrap;
+}
+
+#bcnav a.firstBC {
+float:left;
+background : url('../images/tab-left-home.gif') no-repeat left top;
+margin-right : -12px;
+padding:0 0 0 20px;
+text-decoration : none;
+font-size : 80%;
+}
+
+
+#bcnav a span.lastBC {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent url('../images/tab-right-last.gif') no-repeat scroll right top;
+color:#FFFFFF;
+display:block;
+float:left;
+padding:3px 25px 4px 5px;
+}
+
+
+#bcnav a {
+float : left;
+background : url('../images/tab-left.gif') no-repeat left top;
+margin-right : -12px;
+padding : 0 0 0 10px;
+text-decoration : none;
+font-size : 80%;
+}
+#bcnav a span {
+float : left;
+display : block;
+background : url('../images/tab-right.gif') no-repeat right top;
+padding : 3px 18px 4px 5px;
+color : #fff;
+}
+
+#bcnav a:hover span {
+color : #fff;
+}
+
+#bcnav span.current a {
+background-position : 0 -125px;
+margin-right : -1px;
+}
+
+#bcnav span.current a span {
+background-position : 100% -125px;
+
+}
+#bcnav a:hover {
+background-position : 0% -125px;
+}
+#bcnav a:hover span {
+background-position : 100% -125px;
+}
+
+body.large #bcnav a span {
+padding:1px 12px 4px 4px;
+}
