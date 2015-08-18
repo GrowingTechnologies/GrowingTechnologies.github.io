@@ -1,0 +1,280 @@
+
+
+BODY
+{
+    font: 12pt Times, serif; color: black;
+}
+
+
+h1 { 
+	margin-top:0;
+	padding-top:0;
+	font-weight: bold;
+	font-size : 16pt; 
+	background:none;
+	}
+
+.header1 {
+	display:none;
+}
+
+#logoHolder {
+	display:none;	
+}
+	
+
+h2 { 
+	font-weight:bold;
+	font-size : 14pt; 
+	}
+
+h3 {
+	font-size : 13pt;  
+	}
+
+hr {
+	color : #000; 
+	} 
+
+img {
+	border: none;
+	}
+
+table {
+	border-collapse:collapse;
+	}
+
+td {
+	border:1px #CCCCCC solid;
+	font-size:90%;
+	padding:5px;
+	}
+
+div.bottom { 
+	display:none;
+	}
+
+
+div.normal {
+	padding:5px;
+	}
+
+div.subhdr {
+	padding:5px;
+	margin-top:10px;
+	margin-bottom:10px;
+	}
+
+div.subtitle {
+	padding:5px;
+	}
+	
+div.title {
+	padding:5px;
+	margin-top:10px;
+	}
+
+div.yellow {
+	border-top:0px;
+	padding:5px;
+	}
+	
+div.label {
+	padding:5px;
+	font-weight:bold;
+	margin-bottom:0px;
+	}
+	
+#breadcrumb {
+	background-color:#fff; 
+	color:#000;
+	padding:10px;
+}
+
+#breadcrumb p {
+	margin:0;
+	padding:0;
+	font-size: 75%;
+}
+
+#breadcrumb #siteSearchForm {
+	display:none;
+}
+#breadcrumb #siteSearchForm p {
+	display:none;
+}
+#breadcrumb #siteSearchForm #searchBoxSite {
+	display:none;
+}
+#breadcrumb #siteSearchForm #siteSearchBtn {
+	display:none;
+}
+
+
+
+#headerGraphic {	
+	background-image: none;
+}
+
+#holdingcell {
+margin-left:0px;
+}
+
+#content
+	{
+	margin-left:0px;
+	display: block;
+	}
+	
+#hidden {
+	display:none;
+	}
+
+#categorymenu 
+	{
+	display:none;
+	}
+
+#commonBanner 
+	{
+	display:none;
+	}
+
+#submenu 
+	{
+	display:none;
+	}
+	
+#footerTopRow 
+	{
+	display:none;
+	}
+
+#footer div.bottomLine {
+	position:absolute;
+	border-top:1px solid #000;
+	padding:10px;
+	margin-top:20px;
+}
+
+
+#lastmod 
+	{
+	padding:5px; 
+	font-size:90%;
+	} 
+	
+#header {
+	display:none;
+	}
+	
+#textbar {
+	display:none;
+	}
+
+	
+#topButton{
+	display:none;
+	}
+
+#toplist {
+	display:none;
+	}
+
+#tagline {
+	display:none;
+	}
+
+.sidebar
+	{
+	display:none;
+	}
+
+.rightTitle
+	{
+	font-size:large;
+	font-weight:bold;
+	}
+	
+	
+	#dmenu {
+	display:none;
+	}
+
+#mainlinks {
+	display:none;
+}
+
+.imgright {
+	float:right;
+	}
+
+
+
+#rightBox {
+	display:none;
+	}
+	
+.scrollContainer div {
+	width:100%;
+	clear:both;
+	font: 12pt Times, serif; color: black;
+}
+	
+.scrollContainer div div {
+	width:100%;
+	font: 12pt Times, serif; color: black;
+}
+
+#dolphinnav {
+	display:none;
+}
+
+#contactLogo {
+	display:none;
+}
+
+
+#bcnav {
+
+margin-bottom:10px;
+	
+}
+
+#bcnav ul {
+	list-style-type:none;
+	padding-left:0;
+	margin-left:0;
+	clear:both;
+}
+
+#bcnav ul li {
+	float:left;
+	border-right:1px solid #000;
+	margin-right:10px;
+	padding-right:10px;
+}
+
+#bcnav ul li#current {
+	float:left;
+	border-right:none;
+}
+
+#bcnav ul li a {
+	padding-left:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
