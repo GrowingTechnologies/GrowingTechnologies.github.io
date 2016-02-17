@@ -1,0 +1,130 @@
+body {
+    font-family: 'EB Garamond', serif;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+.navbar-default {
+    border-bottom: none;
+}
+#supernav-login {
+    margin-right: 15px;
+    font-size: 1.2em;
+}
+#navbar-brand-image {
+    width: 128px;
+    margin-top: -33px;
+}
+#xs-login-button {
+    margin-top: 13px;
+}
+#ST-brand-message {
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#ST-slogan {
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#ST-slogan {
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: ;
+}
+.content {
+    margin-top: 10px;
+}
+.primary-content {
+    padding-bottom: 15px;
+    border-bottom: 1px solid lightgray;
+}
+#news {
+    background-color: lightgray;
+    border-radius: 15px;
+}
+footer {
+    height: 500px;
+    margin-top: 30px;
+    background-color: #333;
+}
+
+/* General Media Queries */
+@media (max-width: 767px) {
+    #navbar-brand-image {
+        width: 100px;
+        margin-top: -15px;
+    }
+}
+
+/* ST Brand Message Media Queries */
+@media (min-width: 1500px) {
+    #ST-brand-message {
+        position: absolute;
+        left: 2%;
+        top: 2%;
+    }
+}
+@media (max-width: 1499px) {
+    #ST-brand-message {;
+        position: absolute;
+        left: 2%;
+        top: 2%;
+    }
+}
+@media (max-width: 1199px) {
+    #ST-brand-message {;
+        position: absolute;
+        left: 2%;
+        top: 2%;
+    }
+}
+@media (max-width: 991px) {
+    #ST-brand-message {
+        position: absolute;
+        left: 2%;
+        top: 2%;
+    }
+}
+@media (max-width: 767px) {
+    #ST-brand-message {
+        display: none;
+    }
+}
+
+/* ST Slogan Media Queries */
+@media (min-width: 1500px) {
+    #ST-slogan {
+        position: absolute;
+        left: 72%;
+        top: 85%;
+    }
+}
+@media (max-width: 1499px) {
+    #ST-slogan {;
+        position: absolute;
+        left: 76%;
+        top: 77%;
+    }
+}
+@media (max-width: 1199px) {
+    #ST-slogan {;
+        position: absolute;
+        left: 60%;
+        top: 70%;
+    }
+}
+@media (max-width: 991px) {
+    #ST-slogan {
+        position: absolute;
+        left: 54%;
+        top: 70%;
+    }
+}
+@media (max-width: 767px) {
+    #ST-slogan {
+        display: none;
+    }
+}

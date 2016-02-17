@@ -1,0 +1,138 @@
+/* clearfix styles */
+
+.clearfix:after {
+    visibilityh: hidden;
+    display: block;
+    font-size: 0px;
+    content: " ";
+    clear: both;
+    height: 0px;
+}
+
+.clearfix {
+    display: inline-block;   
+}
+
+* html .clearfix {
+    height: 1%;   
+}
+
+.clearfix {
+    display: block;   
+}
+
+/* jumbotron styles */
+
+.jumbotron {
+    margin-top: 20px;
+    background-color: darkseagreen;
+}
+
+.jumboButton {
+    display: inline-block;
+    float: right;
+}
+
+#jumboButton1 {
+    margin-left: 5px;
+}
+
+#homePageImage {
+    float: right;
+    margin-left: 10px;
+}
+
+.leftFloat {
+    display: block;
+    float: left;   
+}
+
+
+/* Form Styles */
+
+label {
+    display: block;
+    float: left;
+    width: 115px;
+    margin-top: 7px;
+    margin-right: 10px;
+    font-size: 1.6em;
+    font-weight: normal;
+}
+
+.form-control, .customInputClass {
+    width: 425px;   
+}
+
+.customInputClass {
+    margin-bottom: 10px;   
+}
+
+/* custom nav styles */
+
+#signInButton {
+    margin-top: 10px;
+    margin-right: 14px
+}
+
+.navbar-default {
+    background-color: black;
+}
+
+#headerBrand {
+    color: darkseagreen;
+}
+
+#headerNav1 {
+    color: black;
+    font-weight: bold;
+}
+
+#headerNav2 {
+    color: darkseagreen;
+}
+
+/* jumbotron responsive tweak */
+@media screen and (max-width: 768px) {
+  .jumbotron {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+/* sticky footer styles */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: darkseagreen;
+}
+
+/* footer styles */
+#hypContact {
+    font-weight: bold;
+    font-size: 1.13em;
+    color: #204d74;
+}
+
+.contact {
+    margin-top: 10px;
+    float: left;
+}
+
+.copyright {
+    margin-top: 10px;
+    float: right;
+    font-size: 1.1em;
+}
